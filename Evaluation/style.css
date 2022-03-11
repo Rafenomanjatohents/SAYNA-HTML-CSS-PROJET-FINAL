@@ -1,0 +1,244 @@
+header{
+	background-color:#d35649;
+    display: flex;
+    height: 3%;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #98a5a5;
+}
+#Events{
+	font-weight:bolder;
+}
+.icone{
+    display: flex;
+    padding: 1% 1% 1% 1%;
+}
+.section1{
+    padding-top: 4%;
+    padding-bottom: 7%;
+    background-image: url(Assets/Images/group-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+article{
+    width: 50%;
+    padding: 1%;
+    text-align: center;
+    margin-left: 25%;
+    background: rgba(290, 290, 290, .7);
+}
+.box{
+    width: 9%;
+    font-weight:bolder;
+    font-size:x-small;
+    text-align: end;
+    margin-left: 45%;
+    margin-top: 3%;
+    background: rgba(290, 290, 290, .7);
+}
+.section2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.grid2{
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,50%);
+    text-align: center;
+}
+.material-icons{
+    color: white;
+}
+.material-icons:hover{
+    color: #98a5a5;
+}
+.section3{
+    color: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #d35649;
+    padding-bottom: 4%;
+}
+.section4{
+    color: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color:#98a5a5;
+    padding-bottom: 4%;
+}
+.section5{
+    color: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #509bd7;
+    padding-bottom: 4%;
+}
+.photo1{
+    float: right;
+    height: 160px;
+    margin-top: -7%;
+    border-radius: 80%;
+}
+.photo2{
+    float: right;
+    margin-top: -7%;
+    height: 160px;
+    border-radius: 80%;
+}
+.photo3{
+    float: right;
+    height: 160px;
+    margin-top: -9%;
+    border-radius: 80%;
+}
+footer{
+    padding-top: 4%;
+    background-color: #1f1f1f;
+    padding-bottom: 3%;
+}
+.home{
+    font-size: medium;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 1% 1% 1% 1%;
+}
+.round{
+    border: 2px solid white;
+    border-radius: 40px;
+    padding: 2%;
+}
+.footer1{
+    text-align: center;
+}
+.grid3{
+    display: grid;
+    padding-top: 5%;
+    color: white;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;     
+}
+.lien{
+    color:#d35649;
+    font-size: x-small;
+}
+.email{
+    background-color: #1f1f1f;
+    width: 95%;
+    border: #444 solid 1px;
+}
+button{
+    background-color: #98a5a5;
+    color: white;
+    border-radius: 5px;
+}
+.d-flex{
+    padding-left: 20%;
+}
+.grid4{
+    display: grid;
+    text-align: end;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #444;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 30fr;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size:x-large;
+    text-shadow:2px 2px 10px gray; 
+}
+h4{
+    color: #d35649;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+}
+h5{
+    font-size: medium;
+}
+.p1{
+    color: #1f1f1f;
+    font-size:small;
+}
+.p2{
+    color: white;
+    font-size: small;
+}
+.p3{
+    color: white;
+    font-size: x-small;
+}
+.find{
+    color: #d35649;
+    width: 10%;
+    padding-top: 1%;
+    font-size: small;
+    border: none;
+    background-color: white;
+}
+.learn{
+    width: 15%;
+    color: #98a5a5;
+    padding-top: 1%;
+    font-size: small;
+    border-color: white;
+    background-color: white;
+}
+/* Responsive */
+/* En-tête */
+@media screen and (max-width: 960px) {
+.grid1{
+    display: block;
+    padding-left: 20%;
+}
+#Events{
+    font-size: 200%;
+}
+#image{
+    width:30%;
+}
+/* Corps */
+.section3{
+    background-image: url(assets/Images/group-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:#444 solid 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.section4{
+    background-image: url(assets/Images/group-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border:#d35649 solid 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.section5{
+    background-image: url(assets/Images/group-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border:#509bd7 solid 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* Pied de page */
+.photo1, .photo2,.photo3, .find, .learn,h4, .footer1, .grid3,.grid2{
+    display: none;
+}
+}
